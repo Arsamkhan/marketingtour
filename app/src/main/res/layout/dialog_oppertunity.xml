@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_button_gray"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <TextView
+        android:id="@+id/dialog_txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:paddingBottom="50dp"
+        android:text="Create Opportunity"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/dialog_opbtn1"
+            style="@style/button_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_button_primary"
+            android:padding="20dp"
+            android:text="Create Opportunity" />
+
+        <Button
+            android:id="@+id/dialog_opbtn2"
+            style="@style/button_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_button_primary"
+            android:padding="20dp"
+            android:text="Create Goals" />
+
+        <Button
+
+            android:id="@+id/dialog_opbtn3"
+            style="@style/button_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_button_primary"
+            android:padding="20dp"
+            android:text="Previous Goals" />
+    </LinearLayout>
+</LinearLayout>

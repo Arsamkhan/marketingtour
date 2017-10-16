@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="12">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Task"
+            android:textSize="30dp"
+            android:visibility="gone"
+            android:padding="10dp"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:padding="2dp" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="@dimen/mtextsize"
+                    android:background="@drawable/bg_layoutline"
+                    android:inputType="textPersonName"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type Of Task"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="2dp"/>
+                <Spinner
+                    android:id="@+id/type_ofTask"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/mtextsize"
+                    android:background="@drawable/bg_layoutline"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="2dp"/>
+                <TextView
+                    android:id="@+id/addtask_txtdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="12/12/2017"
+                    android:background="@drawable/bg_layoutline"
+                    android:textSize="@dimen/mtextsize"
+                    android:inputType="date"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start Time"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="2dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:textSize="@dimen/mtextsize"
+                    android:background="@drawable/bg_layoutline"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="2dp"
+                    android:text="End Time" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:textSize="@dimen/mtextsize"
+                    android:padding="10dp"
+                    android:background="@drawable/bg_layoutline"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:padding="2dp" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/mtextsize"
+                    android:background="@drawable/bg_layoutline"
+                    android:padding="10dp"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sub type Of Task"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="2dp"/>
+                <Spinner
+                    android:id="@+id/subType_ofTask"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/mtextsize"
+                    android:background="@drawable/bg_layoutline"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="2dp"
+                    android:text="Upload Document" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No File Chosen"
+                    android:background="@drawable/bg_layoutline"
+                    android:padding="10dp"
+                    android:gravity="center|left"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/ic_selectfile"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="2dp"
+                    android:text="Upload Images" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Take Photo"
+                    android:background="@drawable/bg_layoutline"
+                    android:padding="10dp"
+                    android:gravity="center|left"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/ic_camera"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comment"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="2dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/mtextsize"
+                    android:inputType="textLongMessage"
+                    android:padding="10dp"
+                    android:background="@drawable/bg_layoutline"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/addtask_btnsave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                style="@style/button_green" />
+            <Button
+                android:id="@+id/addtask_btnclose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Close"
+                android:layout_marginLeft="20dp"
+                style="@style/button_gray" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="PLANNING">
+            <menu >
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_addtask"
+                        android:title="Weekly Planning"
+                        android:icon="@drawable/ic_addtask"/>
+                    <item
+                        android:id="@+id/nav_createmeeting"
+                        android:title="Meeting Manager"
+                        android:icon="@drawable/ic_ceatemeeting"/>
+                    <item
+                        android:id="@+id/nav_opportunities"
+                        android:title="Opportunities"
+                        android:icon="@drawable/ic_opportunities"/>
+                </group>
+            </menu>
+        </item>
+        <item android:title="EXECUTION">
+            <menu >
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_"
+                        android:title="GSE"
+                        android:icon="@drawable/ic_addtask"/>
+                    <item
+                        android:id="@+id/nav_marketingprogramm"
+                        android:title="Marketing Program"
+                        android:icon="@drawable/ic_addtask"/>
+                    <item
+                        android:id="@+id/nav_nationalchains"
+                        android:title="National Chains"
+                        android:icon="@drawable/ic_ceatemeeting"/>
+                    <item
+                        android:id="@+id/nav_roadmap"
+                        android:title="Road Map Saturation"
+                        android:icon="@drawable/ic_opportunities"/>
+                    <item
+                        android:id="@+id/nav_othermarketing"
+                        android:title="Other Mrketing"
+                        android:icon="@drawable/ic_opportunities"/>
+                    <item
+                        android:id="@+id/nav_counseling"
+                        android:title="Counseling"
+                        android:icon="@drawable/ic_opportunities"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

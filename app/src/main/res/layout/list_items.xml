@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1.1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="6.5">
+
+        <ImageView
+            android:id="@+id/customerImageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:layout_margin="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:weightSum="3"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:weightSum="5">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Make a new Task List "
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:gravity="bottom"
+                    android:layout_weight="3.8"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="01:30PM to 04:30PM"
+                    android:layout_marginRight="20dp"
+                    android:textSize="18sp"
+                    android:gravity="end"
+                    android:layout_weight="1.2"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:textSize="20sp"
+                android:text="Task complete very well and waiting for the next task. Task complete very well."
+                android:gravity="center_vertical"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:weightSum="5">
+                <TextView
+                    android:minLines="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="160 Broadway pany Station, New York City"
+                    android:textSize="22sp"
+                    android:gravity="top"
+                    android:layout_weight="3"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        style="@style/button_green"
+                        android:layout_margin="5dp"
+                        android:text="Edit"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        style="@style/button_green"
+                        android:text="Delete"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        style="@style/button_green"
+                        android:layout_margin="5dp"
+                        android:text="Details"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_gray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+</LinearLayout>
